@@ -3,11 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<meta name="application-name" content="Elise SAC">
 	<meta name="description" content="Soluciones Electricas, Calidad Energia, Distribuidores de Eaton, EATON PERU, EATON, POWERWARE, CANATAL">
@@ -29,7 +26,6 @@
 		
 	<title>ELISE SAC::Soluciones Integrales en Proteccion Electrica</title>
 </head>
-
 <body>
 	
 	<a id="GoUp"><span class="glyphicon glyphicon-chevron-up"> </span></a>
@@ -43,54 +39,81 @@
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<img src="icons/icon-menu.svg" alt="Menu">
 						</button>
 						<a class="brand" href="#">
 							<img src="img/logo-elise.svg" alt="">
+							<div class="brand-slogan">Aseguramos la Calidad de Energía<br />que sus equipos necesitan</div>
 						</a>
 					</div>
 					<div id="navbar" class="collapse navbar-collapse">
 						<ul class="nav navbar-nav pull-right">
-							<li><a href="#">EMPRESA</a></li>
-							<li><a href="#">PRODUCTOS Y SERVICIOS</a></li>
-							<li><a href="#">POST VENTA</a></li>
-							<li><a href="#">CONTACTOS</a></li>
-							<li><a href="#" class="nav-catalogo">CATALOGO DIGITAL</a></li>
-						</ul>
-						<ul class="nav navbar-nav pull-right">
-							<li><div class="brand-slogan">Aseguramos la Calidad de Energía<br />que sus equipos necesitan</div></li>
-							<li class="form-align">
-								<form class="navbar-form" role="search">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Buscar Producto o Servicio">
-										<button type="submit" class="btn btn-default">
-											<span class="glyphicon glyphicon-search"> </span>
-										</button>
-									</div>
-								</form>
+
+							<li class="menu-login">
+								<span class="user-name">Bienvenido Frank Montanchez</span>
+								<img src="icons/icon-login-white.svg" alt="Login">
+								<a href="#" class="close-session">Cerrar Sesión</a>
 							</li>
+
+							<li><a href="#">EMPRESA</a></li>
+							<li><a href="#">PRODUCTOS</a></li>
+							<li><a href="#">SERVICIOS</a></li>
+							<li><a href="#">MARCAS</a></li>
+							<li><a href="#">NOTICIAS</a></li>
+							<li><a href="#">
+								<img src="icons/icon-mail-blue.svg" class="icon-bar" alt="Contactos"><img src="icons/icon-mail-white.svg" class="icon-menu" alt="Contactos">
+								<span class="menu-name">CONTACTOS</span></a></li>
+							<li class="menu-hidden">
+								<a href="#"><img src="icons/icon-catalogo-blue.svg" class="icon-bar" alt="Catálogo Online"></a>
+							</li>
+							<li>
+								<a href="#"><img src="icons/icon-configurador-blue.svg" class="icon-bar" alt="Configurador"><img src="icons/icon-configurador-white.svg" class="icon-menu" alt="Configurador">
+									<span class="menu-name">CONFIGURADOR</span></a></li>
+							<li>
+								<a href="#"><img src="icons/icon-soporte-blue.svg" class="icon-bar" alt="Soporte"><img src="icons/icon-soporte-white.svg" class="icon-menu" alt="Soporte">
+									<span class="menu-name">SOPORTE</span></a></li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 		</div>
 	</div>
+	<div class="navbar-search">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<button type="submit" class="btn btn-default">
+								<span class="glyphicon glyphicon-search"> </span>
+							</button>
+							<input type="text" class="form-control" placeholder="Buscar Producto o Servicio">
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-6">
+					<div class="navbar-login">
+						<span class="user-name">Bienvenido Frank Montanchez</span>
+						<a href="#" class="close-session">Cerrar Sesión</a>
+						<img src="icons/icon-login-blue.svg" alt="Login">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<!--  Anchors
 	================================================== -->
-	<section class="anchors">
+	<section class="anchors bg-darkblue">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<ul class="anchor-list">
-						<li class="anchor-item"><a href="#Bienvenida" class="scroll">BIENVENIDA</a></li>
-						<li class="anchor-item"><a href="#Historia" class="scroll">NUESTRA HISTORIA</a></li>
-						<li class="anchor-item"><a href="#Mision" class="scroll">MISIÓN, VISIÓN Y VALORES</a></li>
-						<li class="anchor-item"><a href="#Directorio" class="scroll">DIRECTORIO</a></li>
-						<li class="anchor-item"><a href="#Seguridad" class="scroll">SEGURIDAD Y SALUD OCUPACIONAL</a></li>
-					</ul>
+				<div class="anchor-list col-sm-12">
+					<a href="#Bienvenida" class="anchor-item scroll">BIENVENIDA</a>
+					<a href="#Historia" class="anchor-item scroll">NUESTRA HISTORIA</a>
+					<a href="#Mision" class="anchor-item scroll">MISIÓN, VISIÓN Y VALORES</a>
+					<a href="#Directorio" class="anchor-item scroll">DIRECTORIO</a>
+					<a href="#Seguridad" class="anchor-item scroll">SEGURIDAD Y SALUD OCUPACIONAL</a>
 				</div>
 			</div>
 		</div>
@@ -147,7 +170,7 @@
 
 	<!--  Misión - Content-32
 	================================================== -->
-	<section id="Mision" class="philosophy-section">
+	<section id="Mision" class="philosophy-section bg-blue">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
@@ -237,6 +260,18 @@
 	</section>
 
 
+	<!--  Breadcrumb
+	================================================== -->
+	<div class="breadcrumb bg-darkblue">
+		<div class="container">
+			<img src="img/logo-elise-breadcrumb.svg" class="breadcrumb-logo">
+			<ul class="breadcrum-list">
+				<li class="breadcrumb-current">Inicio</li>
+			</ul>
+		</div>
+	</div>
+
+
 	<!--  Footer
 	================================================== -->
 	<footer class="footer">
@@ -247,27 +282,26 @@
 					<form class="footer-form">
 						<div class="form-group">
 							<input type="text" class="footer-input" placeholder="Ingrese su e-mail">
-							<button type="submit" class="btn btn-default">
+							<button type="submit" class="btn btn-grey">
 								<span class="glyphicon glyphicon-envelope"> </span>
 							</button>
 						</div>
 					</form>
 					<p class="lead">Encuentranos y forma parte de nuestra familia en redes sociales</p>
 					<div class="social-btns">
-						<ul>
-							<li><a href="#" class="social-icon">
+						<a href="#" class="social-icon">
 								<img src="icons/icon-social-facebook.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-twitter.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-google.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-youtube.svg" alt="">
-							</a></li>
-						</ul>
+							</a>
+
 					</div>
 					<div class="credits">Diseño por Level715</div>
 				</div>
