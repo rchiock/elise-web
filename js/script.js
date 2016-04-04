@@ -75,10 +75,26 @@ $(document).ready( function() {
 	/* Interacción Filtros Búsqueda
 	-------------------------------------------------- */
 	$("a.filter-menu").on("click", function(a){
-		$(this).next().toggle("slow");
+		$(this).next().toggle("medium");
 		$(this).children("span").toggle();
 		a.preventDefault();
 	})
+
+		/* Interacción Filtros Búsqueda
+	-------------------------------------------------- */
+	$("a.open-filters").on("click", function(a){
+		$(this).next().toggle("medium");
+		a.preventDefault();
+	})
+
+
+	/* Interacción Tags Búsqueda
+	-------------------------------------------------- */
+	$(".tag-close").on("click", function(){
+		$(this).parent().hide();
+		a.preventDefault();
+	})
+
 
 	$("a.lightbox").fancybox();
 

@@ -3,11 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<meta name="application-name" content="Elise SAC">
 	<meta name="description" content="Soluciones Electricas, Calidad Energia, Distribuidores de Eaton, EATON PERU, EATON, POWERWARE, CANATAL">
@@ -42,9 +39,7 @@
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<img src="icons/icon-menu.svg" alt="Menu">
 						</button>
 						<a class="brand" href="#">
 							<img src="img/logo-elise.svg" alt="">
@@ -53,52 +48,64 @@
 					</div>
 					<div id="navbar" class="collapse navbar-collapse">
 						<ul class="nav navbar-nav pull-right">
-							<li><a href="#">EMPRESA</a></li>
-							<li><a href="#">PRODUCTOS Y SERVICIOS</a></li>
-							<li><a href="#">POST VENTA</a></li>
-							<li><a href="#">CONTACTOS</a></li>
-							<li><a href="#" class="nav-catalogo">CATALOGO DIGITAL</a></li>
-						</ul>
-						<ul class="nav navbar-nav pull-right">
-							<li class="form-align">
-								<form class="navbar-form navbar-left" role="search">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Buscar Producto o Servicio">
-										<button type="submit" class="btn btn-default">
-											<span class="glyphicon glyphicon-search"> </span>
-										</button>
-									</div>
-								</form>
+
+							<li class="menu-login">
+								<span class="user-name">Bienvenido Frank Montanchez</span>
+								<img src="icons/icon-login-white.svg" alt="Login">
+								<a href="#" class="close-session">Cerrar Sesión</a>
 							</li>
+
+							<li><a href="#">EMPRESA</a></li>
+							<li><a href="#">PRODUCTOS</a></li>
+							<li><a href="#">SERVICIOS</a></li>
+							<li><a href="#">MARCAS</a></li>
+							<li><a href="#">NOTICIAS</a></li>
+							<li><a href="#">
+								<img src="icons/icon-mail-blue.svg" class="icon-bar" alt="Contactos"><img src="icons/icon-mail-white.svg" class="icon-menu" alt="Contactos">
+								<span class="menu-name">CONTACTOS</span></a></li>
+							<li class="menu-hidden">
+								<a href="#"><img src="icons/icon-catalogo-blue.svg" class="icon-bar" alt="Catálogo Online"></a>
+							</li>
+							<li>
+								<a href="#"><img src="icons/icon-configurador-blue.svg" class="icon-bar" alt="Configurador"><img src="icons/icon-configurador-white.svg" class="icon-menu" alt="Configurador">
+									<span class="menu-name">CONFIGURADOR</span></a></li>
+							<li>
+								<a href="#"><img src="icons/icon-soporte-blue.svg" class="icon-bar" alt="Soporte"><img src="icons/icon-soporte-white.svg" class="icon-menu" alt="Soporte">
+									<span class="menu-name">SOPORTE</span></a></li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 		</div>
 	</div>
-
-
-	<!--  Breadcrumb
-	================================================== -->
-	<section class="breadcrumb">
+	<div class="navbar-search">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<ul class="breadcrumb-list">
-						<li class="breadcrumb-item"><a href="#">Inicio</a></li>
-						<li class="breadcrumb-item"><a href="#">Productos y Servicios</a></li>
-						<li class="breadcrumb-item"><a href="#">Estabilizadores</a></li>
-						<li class="breadcrumb-current">IEDA POWER SAFE LCR T3F</li>
-					</ul>
+				<div class="col-sm-6">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<button type="submit" class="btn btn-default">
+								<span class="glyphicon glyphicon-search"> </span>
+							</button>
+							<input type="text" class="form-control" placeholder="Buscar Producto o Servicio">
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-6">
+					<div class="navbar-login">
+						<span class="user-name">Bienvenido Frank Montanchez</span>
+						<a href="#" class="close-session">Cerrar Sesión</a>
+						<img src="icons/icon-login-blue.svg" alt="Login">
+					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
 
 	<!--  Descripción Producto - Content-25
 	================================================== -->
-	<section class="product-file bg-clouds">
+	<section class="product-file bg-grey">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-5">
@@ -164,66 +171,55 @@
 			<h2>ESPECIFICACIONES TÉCNICAS</h2>
 			<div class="row">
 				<div class="col-sm-7">
-					<table>
-						<tr><th colspan="2">Salida</th></tr>
-						<tr>
-							<td>Capacidad de Potencia de Salida</td>
-							<td>8000 Vatios / 10 kVA</td>
-						</tr>
-						<tr>
-							<td>Máxima potencia configurable</td>
-							<td>8000 Vatios / 10 kVA</td>
-						</tr>
-						<tr>
-							<td>Tensión de salida nominal</td>
-							<td>208V</td>
-						</tr>
-						<tr>
-							<td>Nota de tensión de salida</td>
-							<td>Configuración de tensión de salida para 208 o 240</td>
-						</tr>
-						<tr>
-							<td>Eficiencia con carga completa</td>
-							<td>92.0%</td>
-						</tr>
-						<tr>
-						<td>Distorsión de tensión de salida</td>
-							<td>Menos de 3%</td>
-						</tr>
-						<tr>
-							<td>Frecuencia de salida</td>
-							<td>Sincronizada a 50/60 Hz +/-3 Hz ajustable por el usuario +/-0.1 red eléctrica principal</td>
-						</tr>
-						<tr>
-							<td>Otras tensiones de salida</td>
-							<td>240</td>
-						</tr>
-						<tr>
-							<td>Factor de cresta</td>
-							<td>3:1</td>
-						</tr>
-						<tr>
-							<td>Tipo de forma de onda</td>
-							<td>Onda senoidal</td>
-						</tr>
-						<tr><th colspan="2">Entrada</th></tr>
-						<tr>
-							<td>Entrada de voltaje</td>
-							<td>208V</td>
-						</tr>
-						<tr>
-							<td>Frecuencia de entrada</td>
-							<td>50/60 Hz +/-5 Hz (autosensible)</td>
-						</tr>
-						<tr>
-							<td>Tipo de enchufe</td>
-							<td>Hardwire 3-wire (2PH + G)</td>
-						</tr>
-						<tr>
-							<td>Variaciones de tensión de entada para operaciones principales</td>
-							<td>160 - 280V</td>
-						</tr>
-					</table>
+					<div class="specs-list">
+						<ul>
+							<li class="specs-title">Salida</li>
+							<li class="specs-row">
+								<span class="specs-key">Capacidad de Potencia de Salida</span><span class="specs-value">8000 Vatios / 10 kVA</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Máxima potencia configurable</span><span class="specs-value">8000 Vatios / 10 kVA</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Tensión de salida nominal</span><span class="specs-value">208V</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Nota de tensión de salida</span><span class="specs-value">Configuración de tensión de salida para 208 o 240</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Eficiencia con carga completa</span><span class="specs-value">92.0%</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Distorsión de tensión de salida</span><span class="specs-value">Menos de 3%</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Frecuencia de salida</span><span class="specs-value">Sincronizada a 50/60 Hz +/-3 Hz ajustable por el usuario +/-0.1 red eléctrica principal</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Otras tensiones de salida</span><span class="specs-value">240</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Factor de cresta</span><span class="specs-value">3:1</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Tipo de forma de onda</span><span class="specs-value">Onda senoidal</span>
+							</li>
+
+							<li class="specs-title">Entrada</li>
+							<li class="specs-row">
+								<span class="specs-key">Entrada de voltaje</span><span class="specs-value">208V</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Frecuencia de entrada</span><span class="specs-value">50/60 Hz +/-5 Hz (autosensible)</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Tipo de enchufe</span><span class="specs-value">Hardwire 3-wire (2PH + G)</span>
+							</li>
+							<li class="specs-row">
+								<span class="specs-key">Variaciones de tensión de entada para operaciones principales</span><span class="specs-value">160 - 280V</span>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div class="col-sm-4 col-sm-offset-1">
 					<img src="img/productos-estabilizadores-02.png" alt="">
@@ -286,7 +282,7 @@
 
 	<!--  Contacts
 	================================================== -->
-	<section id="Contactos" class="contacts">
+	<section id="Contactos" class="contacts bg-grey">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 col-sm-8">
@@ -316,6 +312,21 @@
 	</section>
 
 
+	<!--  Breadcrumb
+	================================================== -->
+	<div class="breadcrumb bg-darkblue">
+		<div class="container">
+			<img src="img/logo-elise-breadcrumb.svg" class="breadcrumb-logo">
+			<ul class="breadcrum-list">
+				<li class="breadcrumb-item"><a href="#">Inicio</a></li>
+				<li class="breadcrumb-item"><a href="#">Productos</a></li>
+				<li class="breadcrumb-item"><a href="#">UPS</a></li>
+				<li class="breadcrumb-current">UPS Serie GriPower Pro</li>
+			</ul>
+		</div>
+	</div>
+
+
 	<!--  Footer
 	================================================== -->
 	<footer class="footer">
@@ -326,27 +337,26 @@
 					<form class="footer-form">
 						<div class="form-group">
 							<input type="text" class="footer-input" placeholder="Ingrese su e-mail">
-							<button type="submit" class="btn btn-default">
+							<button type="submit" class="btn btn-grey">
 								<span class="glyphicon glyphicon-envelope"> </span>
 							</button>
 						</div>
 					</form>
 					<p class="lead">Encuentranos y forma parte de nuestra familia en redes sociales</p>
 					<div class="social-btns">
-						<ul>
-							<li><a href="#" class="social-icon">
+						<a href="#" class="social-icon">
 								<img src="icons/icon-social-facebook.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-twitter.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-google.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-youtube.svg" alt="">
-							</a></li>
-						</ul>
+							</a>
+
 					</div>
 					<div class="credits">Diseño por Level715</div>
 				</div>
