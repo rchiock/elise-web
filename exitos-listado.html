@@ -3,11 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<meta name="application-name" content="Elise SAC">
 	<meta name="description" content="Soluciones Electricas, Calidad Energia, Distribuidores de Eaton, EATON PERU, EATON, POWERWARE, CANATAL">
@@ -42,9 +39,7 @@
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<img src="icons/icon-menu.svg" alt="Menu">
 						</button>
 						<a class="brand" href="#">
 							<img src="img/logo-elise.svg" alt="">
@@ -53,50 +48,64 @@
 					</div>
 					<div id="navbar" class="collapse navbar-collapse">
 						<ul class="nav navbar-nav pull-right">
-							<li><a href="#">EMPRESA</a></li>
-							<li><a href="#">PRODUCTOS Y SERVICIOS</a></li>
-							<li><a href="#">POST VENTA</a></li>
-							<li><a href="#">CONTACTOS</a></li>
-							<li><a href="#" class="nav-catalogo">CATALOGO DIGITAL</a></li>
-						</ul>
-						<ul class="nav navbar-nav pull-right">
-							<li class="form-align">
-								<form class="navbar-form navbar-left" role="search">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Buscar Producto o Servicio">
-										<button type="submit" class="btn btn-default">
-											<span class="glyphicon glyphicon-search"> </span>
-										</button>
-									</div>
-								</form>
+
+							<li class="menu-login">
+								<span class="user-name">Bienvenido Frank Montanchez</span>
+								<img src="icons/icon-login-white.svg" alt="Login">
+								<a href="#" class="close-session">Cerrar Sesión</a>
 							</li>
+
+							<li><a href="#">EMPRESA</a></li>
+							<li><a href="#">PRODUCTOS</a></li>
+							<li><a href="#">SERVICIOS</a></li>
+							<li><a href="#">MARCAS</a></li>
+							<li><a href="#">NOTICIAS</a></li>
+							<li><a href="#">
+								<img src="icons/icon-mail-blue.svg" class="icon-bar" alt="Contactos"><img src="icons/icon-mail-white.svg" class="icon-menu" alt="Contactos">
+								<span class="menu-name">CONTACTOS</span></a></li>
+							<li class="menu-hidden">
+								<a href="#"><img src="icons/icon-catalogo-blue.svg" class="icon-bar" alt="Catálogo Online"></a>
+							</li>
+							<li>
+								<a href="#"><img src="icons/icon-configurador-blue.svg" class="icon-bar" alt="Configurador"><img src="icons/icon-configurador-white.svg" class="icon-menu" alt="Configurador">
+									<span class="menu-name">CONFIGURADOR</span></a></li>
+							<li>
+								<a href="#"><img src="icons/icon-soporte-blue.svg" class="icon-bar" alt="Soporte"><img src="icons/icon-soporte-white.svg" class="icon-menu" alt="Soporte">
+									<span class="menu-name">SOPORTE</span></a></li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 		</div>
 	</div>
-
-
-	<!--  Breadcrumb
-	================================================== -->
-	<section class="breadcrumb">
+	<div class="navbar-search">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<ul class="breadcrumb-list">
-						<li class="breadcrumb-item"><a href="#">Inicio</a></li>
-						<li class="breadcrumb-current">Casos de Éxito</li>
-					</ul>
+				<div class="col-sm-6">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<button type="submit" class="btn btn-default">
+								<span class="glyphicon glyphicon-search"> </span>
+							</button>
+							<input type="text" class="form-control" placeholder="Buscar Producto o Servicio">
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-6">
+					<div class="navbar-login">
+						<span class="user-name">Bienvenido Frank Montanchez</span>
+						<a href="#" class="close-session">Cerrar Sesión</a>
+						<img src="icons/icon-login-blue.svg" alt="Login">
+					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
 
 	<!-- Casos de Éxito Carousel
 	================================================== -->
-	<div id="CasesCarousel" class="carousel slide" data-ride="carousel">
+	<div id="CasesCarousel" class="carousel bg-grey slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
 				<div class="carousel-quote">
@@ -151,10 +160,28 @@
 					<p class="text">Elise es una empresa profesional de primera. Cuenta con personas 100% capacitadas y preparadas para resolver cualquier problema que pueda presentarse.</p>
 				</div>
 				<div class="quote col-sm-4">
+					<h4>Minera Los Quenuales</h4>
+					<p class="text">Elise es una empresa profesional de primera. Cuenta con personas 100% capacitadas y preparadas para resolver cualquier problema que pueda presentarse.</p>
+				</div>
+				<div class="quote col-sm-4">
 					<h4>MABE Perú SA.</h4>
 					<p class="text">Elise es una empresa profesional de primera. Cuenta con personas 100% capacitadas y preparadas para resolver cualquier problema que pueda presentarse.</p>
 				</div>
 			</div>
+		</div>
+	</div>
+
+
+	<!--  Breadcrumb
+	================================================== -->
+	<div class="breadcrumb bg-darkblue">
+		<div class="container">
+			<img src="img/logo-elise-breadcrumb.svg" class="breadcrumb-logo">
+			<ul class="breadcrum-list">
+				<li class="breadcrumb-item"><a href="#">Inicio</a></li>
+				<li class="breadcrumb-item"><a href="#">Noticias y Novedades</a></li>
+				<li class="breadcrumb-current">Casos de Éxito</li>
+			</ul>
 		</div>
 	</div>
 
@@ -169,27 +196,26 @@
 					<form class="footer-form">
 						<div class="form-group">
 							<input type="text" class="footer-input" placeholder="Ingrese su e-mail">
-							<button type="submit" class="btn btn-default">
+							<button type="submit" class="btn btn-grey">
 								<span class="glyphicon glyphicon-envelope"> </span>
 							</button>
 						</div>
 					</form>
 					<p class="lead">Encuentranos y forma parte de nuestra familia en redes sociales</p>
 					<div class="social-btns">
-						<ul>
-							<li><a href="#" class="social-icon">
+						<a href="#" class="social-icon">
 								<img src="icons/icon-social-facebook.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-twitter.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-google.svg" alt="">
-							</a></li>
-							<li><a href="#" class="social-icon">
+							</a>
+							<a href="#" class="social-icon">
 								<img src="icons/icon-social-youtube.svg" alt="">
-							</a></li>
-						</ul>
+							</a>
+
 					</div>
 					<div class="credits">Diseño por Level715</div>
 				</div>
