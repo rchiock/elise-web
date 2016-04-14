@@ -20,8 +20,9 @@
 body { padding-top: 98px; font-family: 'Open Sans', sans-serif; }
 a { color: #194c92; text-decoration: none; }
 	a:hover, a:focus { text-decoration: none; }
-h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: 0; font-weight: 400; line-height: 1.5; color: #194c92; }
-h2 { font-size: 2.8rem; }
+h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: 0; line-height: 1.5; color: #194c92; }
+h1, h3, h4, h5, h6 { font-weight: 400; }
+h2 { font-size: 2.8rem; font-weight: 700; }
 h3 { font-size: 1.8rem; }
 h4 { font-size: 1.4rem; }
 p { font-weight: 300; color: #666666; }
@@ -235,6 +236,7 @@ input[readonly] { background-color: white !important; cursor: text !important; }
 -------------------------------------------------- */
 #BrandsCarousel { position: relative; display: block; padding: 100px 0; margin: 0; border-top: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; text-align: center; }
 #BrandsCarousel .carousel { text-align: center; }
+.carousel h2 { margin-bottom: 40px; }
 #BrandsCarousel .carousel-inner { position: relative; overflow: hidden; }
 #BrandsCarousel .carousel-inner .item { opacity: 1; }
 #BrandsCarousel .carousel-inner .item .brand-thumb { display: block; width: 428px; height: 240px; margin: 0 auto 40px; box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.65); overflow: hidden; }
@@ -268,7 +270,7 @@ input[readonly] { background-color: white !important; cursor: text !important; }
 #CasesCarousel .carousel { text-align: center; }
 #CasesCarousel .carousel-inner { position: relative; overflow: hidden; }
 #CasesCarousel .carousel-inner .item { opacity: 1; }
-#CasesCarousel .carousel-inner .item:before { content: ''; display: block; width: 27px; height: 20px; margin: 0 auto 40px; text-align: center; }
+#CasesCarousel .carousel-inner .item:before { content: ''; display: block; width: 27px; height: 20px; margin: 0 auto 20px; text-align: center; }
 #CasesCarousel .carousel-inner .item:before { background: url("../icons/icon-quote.svg") no-repeat; -webkit-background-size: 27px 20px; -moz-background-size: 27px 20px; -o-background-size: 27px 20px; background-size: 27px 20px; }
 #CasesCarousel .carousel-inner .item .quote-thumb { display: block; width: 240px; height: 240px; margin: 0 auto 40px; border-radius: 120px; box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.65); overflow: hidden; }
 #CasesCarousel .carousel-inner .item h3 { max-width: 778px; padding: 0 20px; margin: 0 auto; }
@@ -415,8 +417,8 @@ input[readonly] { background-color: white !important; cursor: text !important; }
 	.philosophy-section .row .col-sm-4 { margin-bottom: 40px; }
 	.philosophy-section .row .col-se-4:last-child { margin-bottom: 0; }
 }
-.philosophy-section h3 { text-align: center; color: #ffc926; }
-.philosophy-section h3:before { content: ''; background: url("../img/thumb-mision.png") no-repeat; display: block; width: 100px; height: 100px; margin: 0 auto 20px; }
+.philosophy-section h3 { margin-bottom: 20px; text-align: center; color: #ffc926; }
+.philosophy-section h3:before { content: ''; background: url("../img/thumb-mision.png") no-repeat; display: block; width: 100px; height: 100px; margin: 0 auto 40px; }
 .philosophy-section p.text { text-align: left; color: #ffffff; }
 .philosophy-section ul { padding: 0 0 0 40px; margin: 0; }
 .philosophy-section li { text-align: left; line-height: 2; color: #ffffff; }
