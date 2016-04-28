@@ -350,12 +350,9 @@ input[readonly] { background-color: white !important; cursor: text !important; }
 	.product-file { margin-top: 0; }
 }
 @media (max-width: 639px) {
-	.welcome-section { margin-top: 212px; }
+	.welcome-section { margin-top: 174px; }
 }
-.welcome-section h2, .product-file h2, .history-section h2 { margin-top: 0; }
-@media (max-width: 767px) {
-	.welcome-section h2, .product-file h2, .history-section h2 { text-align: center; }
-}
+.welcome-section h2, .product-file h2, .history-section h2 { margin-top: 30px; margin-bottom: 10px; text-align: center; } 
 .welcome-section img, .product-file img { display: block; width: 100%; margin: 0 auto; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.65); }
 .product-file .btn-contact { background: #1a4d92; width: 280px; height: 36px; padding: 0; margin: 10px 0 40px; border-radius: 0; box-shadow: 0 2px #040D17; font-weight: 600; text-align: center; text-transform: uppercase; line-height: 36px; color: #ffffff; }
 
@@ -585,7 +582,11 @@ input[readonly] { background-color: white !important; cursor: text !important; }
 .policy h2 { margin-bottom: 40px; }
 .policy h3 { margin-top: 20px; margin-bottom: 10px; }
 .faq { margin-top: 60px; }
-.faq .faq-section { padding: 0 0 40px; margin: 0 0 40px; border-bottom: 1px solid #dddddd; }
+@media (max-width: 639px) {
+	.faq { margin-top: 212px; }
+}
+
+.faq .faq-section { padding: 0 0 80px; margin: 0 0 80px; border-bottom: 1px solid #dddddd; }
 .faq .faq-section h2, .faq .faq-section h3 { margin-bottom: 20px; text-align: center; }
 .faq .faq-section img { display: block; margin: 20px auto; box-shadow: 0 2px 1px rgba(0, 0, 0, 0.35);}
 

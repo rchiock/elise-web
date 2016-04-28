@@ -48,7 +48,12 @@ $(document).ready( function() {
 	-------------------------------------------------- */
 	$(".scroll").on("click",function(a){
 		var sectionId = $(this).attr("href");
-		var sectionHeight = $(sectionId).position().top-250;
+		var device = window.innerWidth;
+		if ( device <= 640 ) {
+			var sectionHeight = $(sectionId).position().top-230;
+		} else {
+			var sectionHeight = $(sectionId).position().top-150;
+		}
 		$("html, body").animate({scrollTop:sectionHeight},"slow","easeOutBack");
 		a.preventDefault();
 	})
